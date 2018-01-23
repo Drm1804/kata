@@ -1,0 +1,19 @@
+{
+  "name": "kata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/karma/bin/karma start ./karma.conf.js --auto-watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "karma": "^2.0.0"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.9.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.1"
+  }
+}
